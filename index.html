@@ -1,0 +1,147 @@
+
+
+
+
+<html>
+<title>Music</title>
+<script>
+
+</script>
+<style>
+body{
+
+background:url('./23422-3840x2160-peaceful-anime-wallpaper-photo-desktop-4k.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+background-size:cover;
+background-repeat:no-repeat;
+animation-name:b2;
+animation-duration:56s;
+animation-iteration-count:infinite;
+display:flex;
+}
+@keyframes b2{
+0%{
+background:url('./23422-3840x2160-peaceful-anime-wallpaper-photo-desktop-4k.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+}
+30%{
+background:url('./937696.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+}
+50%{
+background:url('./maxresdefault.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+}
+70%{
+background:url('./495521.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+}
+80%{
+background:url('./wp4660149.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+}
+90%{
+background:url('./596/596630.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+}
+#panel{
+background:linear-gradient(orange,#cf0458,#064e63);
+width:23.7vw;
+ border:2px solid white;
+ border-top:0px;
+z-index:1;
+border-radius:22px;
+height:64vh;
+position:absolute;
+top:20%;
+
+left:40%;
+backdrop-fliter:blur(20px);
+}
+#circle{
+width:12vw;
+position:absolute;
+
+z-index:2;
+top:23%;
+left:45.7%;
+height:12vw;
+background:radial-gradient(orange,yellow);
+border-radius:100%;
+}
+#bones{
+background:url('https://i.scdn.co/image/ab67616d0000b273fc915b69600dce2991a61f13');
+z-index:3;
+position:absolute;
+top:49.9%;
+left:40.8%;
+border:2px solid white;
+background-size:cover;
+background-repeat:no-repeat;
+width:8vh;
+border-radius:9px;
+height:8vh;
+}
+#bones1{
+background:rgba(255,255,255,0.1);
+z-index:2;
+position:absolute;
+border:2px solid rgba(255,255,255,0.15);
+top:49%;
+backdrop-filter:blur(0.1px);
+left:40%;
+border-radius:4px;
+width:23.5vw;
+height:10vh;
+}
+#bt{
+color:White;
+font-weight:bold;
+font-size:19px;
+z-index:1;
+letter-spacing:-1px;
+font-family:sans-serif;
+position:absolute;
+top:50.2%;
+left:47.3%;
+}
+#pla:before{
+z-index:4;
+content: '\25BA';
+position:absolute;
+
+top:52.7%;
+left:60.3%;
+color:white;
+font-size:22px;
+}
+#back{
+backdrop-filter:blur(11px);
+width:99.99vw;
+height:100vh;
+position:absolute;
+top:0%;
+left:0%;
+background:transparent;
+}
+
+</style>
+<span id="panel"></span>
+<span id="circle"></span>
+<span id="bones"></span> 
+<span id="bones1"></span> 
+<p id="bt">Bones</p>
+<audio src="./T.mp3" id="theme" autoplay loop></audio>
+<audio src="https://thinknews.com.ng/wp-content/uploads/2022/03/Imagine_Dragons_Bones_(thinkNews.com.ng).mp3" id="b"></audio>
+<span id="back"></span>
+<p id="pla" onclick="document.getElementById('b').play();
+document.getElementById('theme').pause();"></p>
